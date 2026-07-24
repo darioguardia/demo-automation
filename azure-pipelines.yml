@@ -32,10 +32,10 @@ steps:
     publishLocation: 'pipeline'
   condition: always()
 
-#- task: PublishTestResults@2
-#  inputs:
-#    testResultsFormat: 'JUnit'
-#    testResultsFiles: '**/JunitReport.xml'
-#    searchFolder: 'playwright-report'
-#    testRunTitle: 'JUnit Reporter'
-#  condition: always()
+- task: PublishTestResults@2
+  inputs:
+    testResultsFormat: 'JUnit'
+    testResultsFiles: '**/JunitReport.xml'
+    searchFolder: 'playwright-report'
+    testRunTitle: 'JUnit Reporter'
+  condition: always()
