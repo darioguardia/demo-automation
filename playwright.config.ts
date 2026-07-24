@@ -33,7 +33,7 @@ export default defineConfig({
     video:'retain-on-failure',
     testIdAttribute: 'data-test',
     trace: 'on',
-    headless: false,
+    headless: true,
   },
 
   /* Configure projects for major browsers */
