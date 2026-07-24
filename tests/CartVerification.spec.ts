@@ -3,7 +3,7 @@ import { LoginPage } from "../pages/LoginPage"
 import { HomePage } from "../pages/HomePage"
 import { CartPage } from "../pages/CartPage"
 
-test("Verification of Cart", async({page})=>{
+test("Verification of Cart TEST", async({page})=>{
 
     const loginPageObj = new LoginPage(page)
     await loginPageObj.navigate()
