@@ -1,9 +1,9 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="2.8106900000000024">
-<testsuite name="CartVerification.spec.ts" timestamp="2026-07-24T18:10:23.926Z" hostname="chromium" tests="1" failures="0" skipped="0" time="1.247" errors="0">
-<testcase name="Verification of Cart" classname="CartVerification.spec.ts" time="1.247">
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="1.3946289999999972">
+<testsuite name="CartVerification.spec.ts" timestamp="2026-07-31T17:11:25.746Z" hostname="chromium" tests="1" failures="0" skipped="0" time="0.676" errors="0">
+<testcase name="Verification of Cart TEST" classname="CartVerification.spec.ts" time="0.676">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|..\test-results\CartVerification-Verification-of-Cart-chromium\test-finished-1.png]]
+[[ATTACHMENT|../test-results/CartVerification-Verification-of-Cart-TEST-chromium/test-finished-1.png]]
 ]]>
 </system-out>
 </testcase>
