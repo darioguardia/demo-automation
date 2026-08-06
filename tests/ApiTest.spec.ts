@@ -161,7 +161,7 @@ test("PUT",async({request})=>{
 
 
 test("DELETE", async ({ request }) => {
-    const resp1 = await request.delete("/booking/4", {
+    const resp1 = await request.delete("/booking/6", {
     headers: {
         Authorization: "Basic YWRtaW46cGFzc3dvcmQxMjM="
     }})
@@ -170,7 +170,7 @@ test("DELETE", async ({ request }) => {
     console.log(respText)
     expect(respText).toEqual("Created")
 
-    const resp2 = await request.get("/booking/3")
+    const resp2 = await request.get("/booking/6")
     console.log(resp2.status())
     expect(resp2.status()).toBe(404)
     console.log("DELETE ASSERTION OK")
